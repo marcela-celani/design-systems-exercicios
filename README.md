@@ -1,45 +1,70 @@
-# Design System - Exercício
+# Getting Started with Create React App
 
-### Setup do projeto no Git
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Siga esses passos pra fazer o setup e poder trabalhar no seu projeto:**
+## Available Scripts
 
--  [ ] Crie um **fork** deste projeto.
-   <details>
-      <summary>Esqueceu como se faz?</summary>
-      <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Ffork.png?alt=media&token=7030e997-246a-41fe-a75f-2a2ced61e54d" alt="Fork a sua própria cópia de nome-do-repo"/>
-   </details>
--  [ ] Clone sua **PRÓPRIA** versão do repositório
-   <details>
-      <summary>Esqueceu como se faz?</summary>
-      <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Fclone-repo.png?alt=media&token=d8b3c101-c6d4-4371-b018-ae4edec7e34c" alt="Garanta que o repositório é seu-usuário/nome-do-repo e faça o clone"/>
-   </details>
--  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome>`.
-   <details>
-      <summary>Entenda o comando `git checkout -b`</summary>
-      <p>Na aula vocês aprenderam a criar uma branch (`git branch "nome-branch"`) e se mover até ela (`git checkout "nome-branch"`). Porém, o git permite utilizar contrações para realizar mais de ação com um único comando, que é o caso do (`git checkout -b "nome-branch"`), que cria e automaticamente se move para a branch recém criada.</p>
-   </details>
--  [ ] Implemente o projeto na branch `<turma-nome-sobrenome>`. Lembre-se de fazer commits.
--  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome>`.
+In the project directory, you can run:
 
-**Siga os passos abaixo ao terminar seu projeto, para enviá-lo:**
+### `npm start`
 
--  [ ] Envie um Pull Request da sua branch recém enviada, para que seja possível fazer o merge depois. **POR FAVOR NAO FAÇA O MERGE DO SEU PRÓPRIO PULL REQUEST**
--  [ ] Após o momento de feedback e correção, aprove seu Pull Request e faça o merge
--  [ ] Seu projeto será considerado completo quando a aprovação e o merge com a main acontecerem **em seu próprio repositório**.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Como eu vou executar os exercícios?
-Crie um aplicativo React do zero e inicie pelo exercício 1.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### O que você precisa saber e praticar desta aula?
+### `npm test`
 
-- [ ] item 1 - React
-- [ ] item 2 - Instalação e configuração do ChakraUI
-- [ ] item 3 - ChakraUI
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Cada pasta deste repo possui um README.md com o enunciado do exercício.
+### `npm run build`
 
-### Informações úteis sobre o assunto
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-[Documentação do ChakraUI](https://chakra-ui.com/getting-started)<br>
-[Templates do ChakraUI](https://chakra-templates.dev/components/cards)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
